@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8"> 
+	<title>WebAgency</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="website">
+    
+    <!-- FB Open Graph data -->
+    <meta property="og:title" content="WebAgency, l'agence de tous vos projets"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="WebAgency. Un site sur les services offerts par une agence web, sites, référencement, design, réseaux sociaux"/>
+    
+    <!-- Feuille de style, font -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<!--Header-->
+    
+	<header>
+		
+		<!--Logo-->
+        <div id="logo">
+            <img src="image/logo.png" alt="logo du site webagency">
+        </div>
+		<!--Menu-->
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+		
+	</header>
+    <!--End Header-->
+
+	<!--Slider-->
+    
+    <section id="bloc">
+    	<h6>Slider</h6>
+        <input type="radio" id="i2" name="images" />
+        <input type="radio" id="i1" name="images" />
+
+        <div class="slider-box" id="slider">
+
+            <div class="slider-box1">
+                <div class="slider-img1">
+                    <div class="slider-text1">
+                        <p class="slide-text-title"><span class="services"><strong>WebAgency :</strong></span> L'agence de tous vos projets !</p>
+                        <p class="slide-text-subtitle">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                        <a class="slide-btn" href="#services">Plus d'infos</a>
+                    </div>
+                    <img src="image/slide-1.png" alt="enfant avec de la peinture sur les mains">
+                </div>
+            </div>
+
+            <div class="slider-box2">
+                <div class="slider-img2">
+                    <div class="slider-text2">
+                        <p class="slide-text-title"><span class="services"><strong>WebAgency :</strong></span> La solution !</p>
+                        <p class="slide-text-subtitle">Nous réalisons des offres sur mesure selon vos besoins.</p>
+                        <a class="slide-btn" href="#contact">Nous contacter</a>
+                    </div>
+                    <img src="image/slide-2.png" alt="enfant avec un megaphone">
+                </div>
+            </div>
+
+            <label class="btn-left" for="i2"><i class="fas fa-angle-left"></i></label>
+            <label class="btn-right" for="i1"><i class="fas fa-angle-right"></i></label>
+            <div class="btn-left-inactive"><i class="fas fa-angle-left"></i></div>
+            <div class="btn-right-inactive"><i class="fas fa-angle-right"></i></div>
+
+        </div>
+        <div class="progress-bar"></div>
+    </section>
+
+
+    <!--End Slider-->
+
+	<!--Services-->
+
+	<section id="services">
+        <div class="section-description">
+        <div id="activité">
+            <h1 class="section-titre">NOS SERVICES</h1>
+            <div class="separator">
+                <div class="trait"></div>
+                <div class="point"></div>
+                <div class="trait"></div>
+            </div>
+        </div>
+            <p class="section-text">WebAgency met tout en oeuvre dans le developpement de votre projet en alliant <strong>design et technicité</strong>.<br/>Nous vous proposons <strong>des solutions sur-mesure</strong> qui s'adaptent à votre projet.</p>
+        </div>
+        <div class="containerServices">
+            <div class="box1"><img src="image/service1.png" alt="ordinateur"></div>
+            <div class="box2">
+                <ul>
+                    <li>
+                        <div class="circle-logo">
+                            <div class="circle">
+                                <div class="image-fleche">
+                                </div>
+                                <div class="mini-point"></div>
+                                <i class="fas fa-chart-line fa-2x"></i>
+                            </div>
+                        </div>
+                        <div class="services-text">
+                            <h3>UX design</h3>
+                            <p>L'UX (expérience utilisateur) consiste a concevoir un site web le plus ergonomique possible.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle-logo">
+                            <div class="circle">
+                                <div class="mini-point"></div>
+                                <i class="fas fa-cubes fa-2x"></i>
+                            </div>
+                        </div>
+                        <div class="services-text">
+                            <h3>UI design</h3>
+                            <p>L'UI (interface utilisateur) permet d'avoir un design fonctionnel afin de rendre l’expérience de navigation la plus intuitive possible.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="circle-logo">
+                            <div class="circle">
+                                <div class="mini-point"></div>
+                                <i class="fas fa-chart-pie fa-2x"></i>
+                            </div>
+                        </div>
+                        <div class="services-text">
+                            <h3>SEO</h3>
+                            <p>Grâce au SEO (search engine optimization) vous pouvez obtenir un bon positionnement dans les résultats des moteurs de recherche.<br/></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--End Services-->
+
+    <!--Portfolio-->
+
+    <section id="projets">
+        <div id="portfolio"></div>
+        <div class="section-description">
+            <h1 class="section-titre">NOS PROJETS</h1>
+            <div class="separator">
+                <div class="trait"></div>
+                <div class="point"></div>
+                <div class="trait"></div>
+            </div>
+            <p class="section-text">Voici quelques exemples de nos réalisations au travers de plusieurs projets récents. <br/>Nos clients nous ont fait confiance, pourquoi pas vous ?</p>
+        </div>
+
+        <input type="radio" id="m1" name="group" checked>
+        <input type="radio" id="m2" name="group">
+        <input type="radio" id="m3" name="group">
+        <input type="radio" id="m4" name="group">
+
+        <div class="menu-portfolio">
+            <div class="item1">
+                <p>All works</p>
+                <label class="label-item1" for="m1"><img src="image/portfolio.png" alt="fleche-bleu"></label>
+            </div>
+            <div class="item2">
+                <p>Creative</p>
+                <label class="label-item2" for="m2"><img src="image/portfolio.png" alt="fleche-bleu-2"></label>
+            </div>
+            <div class="item3">
+                <p>Corporate</p>
+                <label class="label-item3" for="m3"><img src="image/portfolio.png" alt="fleche-bleu-3"></label>
+            </div>
+            <div class="item4">
+                <p>Portfolio</p>
+                <label class="label-item4" for="m4"><img src="image/portfolio.png" alt="fleche-bleu-4"></label>
+            </div>
+        </div>
+
+        <div class="portfolio-mosaic">
+            <div class="container" id="projet1">
+                <figure class="portfolio-vignettes">
+                    <img src="image/un.png" alt="vignettes">
+                    <figcaption class="portfolio-description">
+                        <a href="#">AcceSoir</a>
+                        <p>Création d'accessoires en 3D</p>
+                        <a href="#"></a>
+                        <div class="rond">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="container" id="projet2">
+                <figure class="portfolio-vignettes">
+                    <img src="image/deux.png" alt="vignettes2">
+                    <figcaption class="portfolio-description">
+                        <a href="#">Dessine-moi</a>
+                        <p>Créateur d'illustrations pour enfants</p>
+                        <div class="rond">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="container" id="projet3">
+                <figure class="portfolio-vignettes">
+                    <img src="image/trois.png" alt="vignettes3">
+                    <figcaption class="portfolio-description">
+                        <a href="#">Pompadour</a>
+                        <p>Vente de tee-shirt en ligne </p>
+                        <div class="rond">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="container" id="projet4">
+                <figure class="portfolio-vignettes">
+                    <img src="image/quatre.png" alt="vignette4">
+                    <figcaption class="portfolio-description">
+                        <a href="#">Imprimeur</a>
+                        <p>Supports d'impression</p>
+                        <div class="rond">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="container" id="projet5">
+                <figure class="portfolio-vignettes">
+                    <img src="image/cinq.png" alt="vignette5">
+                    <figcaption class="portfolio-description">
+                        <a href="#">Doggy-bag</a>
+                        <p>Plat à emporté</p>
+                        <div class="rond">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="container" id="projet6">
+                <figure class="portfolio-vignettes">
+                    <img src="image/six.png" alt="vignette6">
+                    <figcaption class="portfolio-description">
+                        <a href="#">Illustration urbaine</a>
+                        <p>Urbaniste-paysagiste</p>
+                        <div class="rond">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="container" id="projet7">
+                <figure class="portfolio-vignettes">
+                    <img src="image/sept.png" alt="vignette7">
+                    <figcaption class="portfolio-description">
+                        <a href="#">Styl-o</a>
+                        <p>Vente de stylo design</p>
+                        <div class="rond">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="container" id="projet8">
+                <figure class="portfolio-vignettes">
+                    <img src="image/huit.png" alt="vignette8">
+                    <figcaption class="portfolio-description">
+                        <a href="#">Visuel</a>
+                        <p>Création d'identité visuelle</p>
+                        <div class="rond">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!--End Portfolio-->
+
+    <!--Contact-->
+
+    <footer id="contact">
+        <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221609680721!2d2.3476369153395273!3d48.8730517792889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1528800036464" width="600" height="450" style="border:0" allowfullscreen></iframe>
+
+        <div class="fond-bleu"></div>
+
+        <div class="contact-formulaire">
+            <h2>Contact Info</h2>
+            <p>WebAgency SAS<br />25 rue d'hauteville 75010 Paris<br />Tél: 01 02 03 04 05</p>
+
+            <form method="post" action="traitement.php">
+                <div class="Name">
+                    <input class="contact-input" type="text" name="name" placeholder="Name">
+                </div>
+                <div class="Email">
+                    <input class="contact-input" type="email" name="email" placeholder="Email">
+                </div>
+                <div class="Subject">
+                    <input class="contact-input" type="text" name="subject" placeholder="Subject">
+                </div>
+                <div class="Message">
+                    <textarea class="contact-textarea" name="message" placeholder="Message"></textarea>
+                    <input class="form-btn" type="button" name="bouton" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </footer>
+    <!--End Contact-->
+</body>
+</html>
